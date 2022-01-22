@@ -1,0 +1,344 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    position: relative;
+    width: 1219px;
+    margin: auto;
+    background: #FFFFFF;
+    
+}
+
+/*Оформление header*/
+/*.header__wrapper {
+    position:fixed;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+}*/
+.header {
+    position: fixed;
+    width: 1219px;
+    height: 84px;
+    padding-top: 0;
+    /*justify-content: space-between;*/
+    /*left: 0px;*/
+    top: 0px;
+    display: flex;
+    background: #007765;
+}
+
+.piperlogo {
+    width: 183.96px;
+    height: 45.04px;
+    margin-left: 55.04px;
+    margin-top: 20px;
+    /*margin-bottom: 18.96px;*/
+    display: inline-block;
+    
+}
+.piperlogo:hover {
+    opacity: 0.7;
+}
+.menu {
+    display: inline-block;
+    color: #FFFFFF;
+    height: 29px;
+    margin-left: 502px;
+    margin-top: 29px;
+    
+    
+}
+.menu > a {
+    text-decoration: none;
+}
+.header > a {
+    text-decoration: none;
+}
+.problem {
+    display: inline-block;
+    width: 129px;
+    height: 29px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+/* identical to box height */
+    text-align: center;
+    
+}
+.piedpipercoin {
+    display: inline-block;
+    color: #FFFFFF;
+    width: 154px;
+    height: 29px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 8px;
+/* identical to box height */
+    text-align: center;
+    
+}
+.team {
+    display: inline-block;
+    color: #FFFFFF;
+    width: 95px;
+    height: 29px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 8px;
+/* identical to box height */
+    text-align: center;
+    
+}
+.slash {
+    display: inline-block;
+    color: #FFFFFF;
+    width: 7px;
+    height: 29px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 8px;
+/* identical to box height */
+    text-align: center;
+    
+}
+
+.problem:hover {
+    transform: translate(-5px);
+}
+.piedpipercoin:hover {
+    transform: translate(-5px);
+}
+.team:hover {
+    transform: translate(-5px);
+}
+/*Оформление slogan1*/
+
+.slogan1__container {
+    padding-top: 160px;
+    padding-bottom: 160px;
+    margin-top: 84px;
+    background-size: cover;
+    background-position: center center;
+    background-image: url("img/back_green.png");
+}
+.slogan1 {
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+    /*background-color: rgb(148, 241, 241);*/
+    
+}
+.slogan1__text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #FFFFFF;
+    scroll-margin-top: 168px;
+}
+
+/*Оформление блока Problem*/
+
+.problemcontainer {
+    background-color: #EEEEEE;
+    padding-top: 48px;
+    padding-bottom: 92px;
+    padding-left: 55px;
+    padding-right: 54px;
+}
+.problemheader {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    margin-bottom: 16px;
+    /* identical to box height */
+    text-align: center;
+    color: #007765;
+    scroll-margin-top: 84px;
+}
+.problemtext {
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+}
+.problemtext p {
+    margin-bottom: 1.5em;
+}
+.problemtext p:last-child {
+    margin-bottom: 0;
+}
+/*Оформление Slogan2*/
+
+.slogan2__container {
+    padding-top: 128px;
+    padding-bottom: 127px;
+    padding-left: 163px;
+    padding-right: 163px;
+    background-size: cover;
+    background-position: center center;
+    background-image: url("img/back_blue.png");
+}
+.slogan2 {
+    /*max-width: 1219px;*/
+    margin-left: auto;
+    margin-right: auto;
+    /*padding-left: 55px;
+    padding-right: 55px;*/
+    /*background-color: rgb(148, 241, 241);*/
+    
+}
+.slogan2__text {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/*Оформление coin*/
+
+.coincontainer {
+    background: #FFFFFF;
+    padding-top: 48px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom: 92px;
+}
+.coinheader {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    /* identical to box height */
+    text-align: center;
+    color: #007765;
+    scroll-margin-top: 84px;
+}
+.coinlogotextcontainer {
+    margin-top: 16px;
+    display: flex;
+}
+.coinlogotextcontainer_logo {
+    display: inline-block;
+    width: 115px;
+    height: 115px;
+}
+.coinlogotextcontainer_text {
+    display: inline-block;
+    margin-left: 48px;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+}
+.cointext {
+    margin-top: 35px;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+}
+.cointext p:first-child {
+    margin-bottom: 1.5em;
+}
+
+/*Оформление блока Team*/
+
+.teamcontainer {
+    background: #EEEEEE;
+    padding-top: 48px;
+    padding-right: 55px;
+    padding-bottom: 40px;
+    padding-left: 55px;
+    scroll-margin-top: 84px;
+
+}
+
+.teamheader {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    display: block;
+    margin-bottom: 56px;
+    text-align: center;
+    color: #007765;
+}
+.cardfield {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.cardfield > .cardcontainer {
+    margin-bottom: 82px;
+}
+
+.cardcontainer {
+    width: 350px;
+    display: inline-block;
+    /*background-color: aqua;*/
+}
+.cardimg {
+    width: 350px;
+    height: 168px;
+    display: inline-block;
+    text-align: center;
+    
+}
+.cardname {
+    width: 350px;
+    height: 29px;
+    /*display: block;*/
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #007765;
+    /*background-color: bisque;*/
+}
+.cardprof {
+    width: 350px;
+    height: 22px;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+}
+
+/*Оформление Footer*/
+
+.footer {
+    background: #333333;
+    padding-top: 48px;
+    padding-right: 340px;
+    padding-bottom: 64px;
+    padding-left: 340px;
+
+}
+.copyright {
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
